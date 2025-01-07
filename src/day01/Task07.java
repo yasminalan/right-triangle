@@ -28,11 +28,11 @@ public class Task07 {
         System.out.print("Please enter the length of the third side of the triangle: ");
         int side3 = scanner.nextInt();
 
-       boolean isRightTriangle = Math.pow(side3 , 2) == Math.pow(side1 , 2) + Math.pow(side2 , 2);
-       //her kenar icin ayri yapilabilir.
+        boolean isRightTriangle = Math.pow(side3, 2) == Math.pow(side1, 2) + Math.pow(side2, 2);
+        //her kenar icin ayri yapilabilir.
 
         if (isRightTriangle) {
-            System.out.println("This is a right triangle.");
+            System.out.println("This is a right triangle..");
         } else {
             System.out.println("This is not a right triangle.");
         }
